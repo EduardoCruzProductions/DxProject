@@ -3,7 +3,7 @@
 
 	<head>
 	
-		<title>Home</title>
+		<title>DxProject - Home</title>
 		<link rel="stylesheet" href="css/style_home.css">
 		<meta charset="utf-8">
 		
@@ -21,11 +21,26 @@
 		
 		<article id="baner">
 		
-			<div></div>
+                    <img id="logo" src="img/logo.png">
 		
 		</article>
 		
-		
+                <article id="conteudo">
+                
+                    
+                
+                </article>    
+            
+                
+                <article id="foot">
+                
+                    
+                    
+                </article>
+                         
+                         
+            
+            
 	</body>
 	
 
