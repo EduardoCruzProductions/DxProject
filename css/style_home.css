@@ -48,36 +48,6 @@ body{
 	
 }
 
-
-#main_option{
-	margin:0 auto;
-	float:left;
-	height:500px;
-	width:400px;
-	background:black;
-	
-}
-
-#main_option_l{
-	
-	margin-left:100px;
-	float:left;
-	height:500px;
-	width:400px;
-	background:black;
-	
-}
-
-#main_option_r{
-	
-	margin-right:100px;
-	float:right;
-	height:500px;
-	width:400px;
-	background:black;
-	
-}
-
 a{
 	
 	text-decoration:none;

@@ -26,36 +26,6 @@
 		</article>
 		
 		
-		
-		
-		<div id="main_menu">
-		
-			<div id="main_option">
-			
-				
-			
-			</div>
-			
-			<div id="main_option">
-			
-				
-			
-			</div>
-			
-			<div id="main_option">
-			
-				
-			
-			</div>
-			
-			
-		</div>
-		
-		
-		
-		
-		
-	
 	</body>
 	
 
