@@ -1,17 +1,62 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
+
+	<head>
+	
+		<title>Home</title>
+		<link rel="stylesheet" href="css/style_home.css">
+		<meta charset="utf-8">
+		
+	</head>
+	
+	<body>
+	
+		<div id="topo">
+		
+			<a href="#"><div id="botao"><div id="text">Home</div></div></a>
+			<a href="#"><div id="botao"><div id="text">Animes</div></div></a>
+			<a href="#"><div id="botao"><div id="text">Mangas</div></div></a>
+			<a href="#"><div id="botao"><div id="text">Jogos</div></div></a>
+		</div>
+		
+		<article id="baner">
+		
+			<div></div>
+		
+		</article>
+		
+		
+		
+		
+		<div id="main_menu">
+		
+			<div id="main_option">
+			
+				
+			
+			</div>
+			
+			<div id="main_option">
+			
+				
+			
+			</div>
+			
+			<div id="main_option">
+			
+				
+			
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+	
+	</body>
+	
+
 </html>
