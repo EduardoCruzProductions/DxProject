@@ -21,24 +21,6 @@ body{
 
 }
 
-#baner{
-	
-	position:absolute;
-	top:65px;
-	left:0;
-	height:250px;
-	width:100%;
-	background:white;
-	
-}
-
-#logo{
-    
-    margin-left:10%;
-    margin-top: 35px;
-    
-}
-
 a{
 	
 	text-decoration:none;
@@ -75,16 +57,34 @@ a{
 	
 }
 
+#baner{
+	
+    position:absolute;
+    top:65px;
+    left:0;
+    height:250px;
+    width:100%;
+    background-image: url(../img/bg_baner_home.jpg);
+    border-bottom:4px groove white;
+    box-shadow: 0 0 12px black;	
+}
+
+#logo{
+    
+    margin-left:10%;
+    margin-top: 40px;
+    
+}
+
 #conteudo{
     
     position: relative;
     background: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 330px;
+    margin-top: 340px;
     width: 65%;
     height: 1000px;
-    
     
 }
 
