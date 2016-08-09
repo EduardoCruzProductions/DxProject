@@ -12,9 +12,7 @@
 	<body>
 	
 		<div id="topo">
-		
-			<a href="#"><div id="botao"><div id="text">Home</div></div></a>
-			<a href="#"><div id="botao"><div id="text">Animes</div></div></a>
+                        <a href="anime.php"><div id="botao"><div id="text">Animes</div></div></a>
 			<a href="#"><div id="botao"><div id="text">Mangas</div></div></a>
 			<a href="#"><div id="botao"><div id="text">Jogos</div></div></a>
 		</div>
