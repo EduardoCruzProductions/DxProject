@@ -31,7 +31,15 @@
             
                 <div id="text">Público alvo</div>
             
-            </div>       
+            </div>
+            
+            <div id="box_publico">
+                
+                <div id="imagem">
+                
+                </div>    
+                
+            </div>
 		
 	</article>
     
