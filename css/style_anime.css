@@ -78,13 +78,13 @@ a{
 #titulo{
     position:relative;
     height:80px;
-    width:70%;
+    width:100%;
     background: white;
     margin-left:auto;
     margin-right:auto;
     margin-top:5px;
     background:#4F4F4F;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 #titulo #text{
@@ -101,9 +101,8 @@ a{
     margin-left: auto;
     margin-right: auto;
     margin-top: 330px;
-    width: 100%;
-    height: 1000px;
-    
+    width: 900px;
+    height: 1000px; 
     
 }
 
@@ -112,15 +111,27 @@ a{
     margin-top:50px;
     position: relative;
     float:left;
-    margin-left: 8%;
-    height: 450px;
-    width: 25%;
-    background: red;
-    border-radius:15px;
+    height: 300px;
+    width: 100%;
+    background: white;
     
 }
 
+#box_publico #imagem{
+    height: 100%;
+    width: 250px;
+    margin-left:25px;
+    background: black;
+    float:left;
+}
 
+#box_publico #texto{
+    float:left;
+    margin-left: 10px;
+    width: 600px;
+    margin-top:5px;
+    font-size: 20px;
+}
 
 #foot{
     

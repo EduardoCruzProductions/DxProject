@@ -39,6 +39,16 @@
                 
                 </div>    
                 
+                <div id="texto">
+                    <h1>Seinen</h1>
+                    <p>
+                    awueiufiawubefiauwebfiuaiuasdiu
+                    waeiufhawiuehfawiuehfawiuhefawu
+                    oawiejfoawiefjoaidjfosiawoiejfo
+                    pawoefpoawepfojawofwaopefpoowej
+                    </p>
+                </div>
+            
             </div>
 		
 	</article>
