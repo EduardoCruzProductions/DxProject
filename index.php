@@ -35,9 +35,6 @@
                     
                     
                 </article>
-                         
-                         
-            
             
 	</body>
 	
