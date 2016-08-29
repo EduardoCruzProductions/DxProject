@@ -9,6 +9,10 @@ body{
 	
 }
 
+a{
+    color:black;
+}
+
 #topo{
 	
 	position:fixed;
@@ -97,12 +101,13 @@ a{
 
 #conteudo{
     
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 330px;
+    margin-bottom: 50px;
     width: 1000px;
-    height: 1000px; 
+    height: auto; 
+    display: table;
     
 }
 
@@ -135,10 +140,9 @@ a{
 
 #foot{
     
-    position: absolute;
     width: 100%;
     height: 250px;
-    margin-top: 30px;
     background: #1C1C1C;
+    clear:both;
     
 }

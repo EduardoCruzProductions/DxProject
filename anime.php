@@ -33,24 +33,28 @@
             
             </div>
             
-            <div id="box_publico">
+            <a href="#">
+                <div id="box_publico">
                 
-                <div id="imagem">
+                    <div id="imagem">
                 
-                </div>    
+                    </div>    
                 
-                <div id="texto">
-                    <h1>Seinen</h1>
-                    <p>
-                    awueiufiawubefiauwebfiuaiuasdiu
-                    waeiufhawiuehfawiuehfawiuhefawu
-                    oawiejfoawiefjoaidjfosiawoiejfo
-                    pawoefpoawepfojawofwaopefpoowej
-                    </p>
-                </div>
+                    <div id="texto">
+                        <h1>Seinen</h1>
+                        <p>
+                            awueiufiawubefiauwebfiuaiuasdiu
+                            waeiufhawiuehfawiuehfawiuhefawu
+                            oawiejfoawiefjoaidjfosiawoiejfo
+                            pawoefpoawepfojawofwaopefpoowej
+                        </p>
+                    </div>
             
-            </div>
-		
+                </div>
+            </a>    
+            
+            
+            
 	</article>
     
         <article id="foot">

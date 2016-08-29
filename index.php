@@ -27,8 +27,7 @@
                 
                     
                 
-                </article>    
-            
+                </article>
                 
                 <article id="foot">
                 
