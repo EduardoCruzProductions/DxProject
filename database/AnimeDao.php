@@ -1,6 +1,6 @@
 <?php
 
-include_once "../entidades/animes.php";
+include_once "../entidades/Anime.php";
 include_once "Conexao.php";
 
 class AnimeDao {
