@@ -9,19 +9,16 @@
         
         <?php
             
-            include_once "../entidades/Anime.php";
-            include_once "../database/AnimeDao.php";
+            include_once "../entidades/Publico.php";
+            include_once "../database/PublicoDao.php";
             
-            $a = new Anime();
-            $dao = new AnimeDao();
+            $p = new Publico();
+            $dao = new PublicoDao();
             
-            $a->setNome("Algum anime la");
-            $a->setGenero("acao");
-            $a->setId_publico(1);
-            $a->setSinopse("é muito legal pq eu nao sei pq mais eu sei q é");
-            $a->setImg("img1");
-            $a->setN_episodios("45");
-            $dao->salvar($a);
+            $p->setNome("Seinen");
+            $p->setDescricao("Destinado para jovens e adultos do sexo masculino");
+            
+            $dao->salvar($p);
             
             echo "funciono";
             
