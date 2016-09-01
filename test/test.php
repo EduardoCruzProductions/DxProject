@@ -14,14 +14,11 @@
             
             $p = new Publico();
             $dao = new PublicoDao();
+            $list = $dao->listar();
             
-            $p->setNome("Seinen");
-            $p->setDescricao("Destinado para jovens e adultos do sexo masculino");
-            
-            $dao->salvar($p);
-            
-            echo "funciono";
-            
+            foreach($list as $p){
+                echo $p->getNome();
+            }
         ?>
         
     </body>
