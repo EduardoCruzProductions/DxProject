@@ -127,16 +127,17 @@ a{
     margin-top:50px;
     position: relative;
     float:left;
-    height: 300px;
+    height: auto;
     width: 100%;
     background: white;
     
 }
 
 #box_publico #imagem{
-    height: 100%;
+    height: 300px;
     width: 250px;
-    margin-left:25px;
+    margin-left:10px;
+    margin-top:10px;
     background: black;
     float:left;
 }
@@ -146,13 +147,28 @@ a{
     width: 100%;
 }
 
-#box_publico #texto{
+#box_publico #side_imagem{
+    font-size: 15px;
     float:left;
-    margin-left: 10px;
-    width: 600px;
-    margin-top:5px;
-    font-size: 20px;
+    width: 715px;
+    margin-top:235px;
+    margin-left:10px;
 }
+
+#box_publico #texto{
+    
+    clear:both;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid white;
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+
+#box_publico #texto h1{
+    margin-top: 10px;
+}    
 
 #foot{
     

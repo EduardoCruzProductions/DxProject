@@ -1,6 +1,5 @@
 <?php
 
-include_once '../entidades/Publico.php';
 include_once 'Conexao.php';
 
 class PublicoDao {

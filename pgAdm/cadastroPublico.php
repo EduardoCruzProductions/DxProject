@@ -11,7 +11,7 @@
         <div id="topo">
 		
             <a href="../index.php"><div id="botao"><div id="text">Home</div></div></a>
-            
+            <a href="cadastroAnime.php"><div id="botao"><div id="text">Cadastro de Títulos</div></div></a>
       
         </div>
         

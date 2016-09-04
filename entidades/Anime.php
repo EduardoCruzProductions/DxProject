@@ -1,7 +1,6 @@
 <?php
 
-
-class anime {
+class Anime {
     
     private $id;
     private $id_publico;
@@ -9,7 +8,7 @@ class anime {
     private $n_episodios;
     private $sinopse;
     private $genero;
-    private $img;
+    private $link;
     
     function getId() {
         return $this->id;
@@ -35,8 +34,8 @@ class anime {
         return $this->genero;
     }
 
-    function getImg() {
-        return $this->img;
+    function getLink() {
+        return $this->link;
     }
 
     function setId($id) {
@@ -63,8 +62,8 @@ class anime {
         $this->genero = $genero;
     }
 
-    function setImg($img) {
-        $this->img = $img;
+    function setLink($link) {
+        $this->link = $link;
     }
 
 
