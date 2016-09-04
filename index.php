@@ -15,6 +15,7 @@
                         <a href="anime.php"><div id="botao"><div id="text">Animes</div></div></a>
 			<a href="#"><div id="botao"><div id="text">Mangas</div></div></a>
 			<a href="#"><div id="botao"><div id="text">Jogos</div></div></a>
+                        <a href="pgAdm/cadastroPublico.php"><div id="ger"><img src="img/ger.png"/></div></a>
 		</div>
 		
 		<article id="baner">

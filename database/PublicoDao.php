@@ -15,12 +15,12 @@ class PublicoDao {
             $nome = $p->getNome();
             $descricao = $p->getDescricao();
             $stmt->execute();
-            
+            $p->setId($con->insert_id);
         } catch (Exception $ex) {
             print($ex);
         }
         
-        return $p->setId($con->insert_id);
+        return $p;
         
     }
     

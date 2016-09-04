@@ -57,6 +57,15 @@ a{
 	
 }
 
+#ger img{
+    
+    margin-top:8px;
+    margin-right: 8px;
+    height: 50px;
+    float:right;
+    
+}
+
 #baner{
 	
     position:absolute;
