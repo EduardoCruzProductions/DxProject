@@ -90,14 +90,13 @@ a{
     margin-bottom: 50px;
     width: 1000px;
     height: auto;
-    
 }
 
 #cont_form{
     
     margin-top:50px;
     background: white;
-    height: 250px;; 
+    height: auto; 
     text-align: center;
     
 }
@@ -107,9 +106,15 @@ a{
     margin-left: auto;
 }
 
+#form #text{
+    font-size:30px;
+    margin-top:10px;
+}
+
 #txt{
     font-size:30px;
     width:900px;
+    
 }
 
 textarea{
@@ -118,4 +123,12 @@ textarea{
     height:150px;
     font-size:25px;
     margin-left: auto;
+}
+
+#form button{
+    margin-top:30px;
+    height: 45px;
+    width: 200px;
+    margin-bottom:30px;
+    font-size:15px;
 }

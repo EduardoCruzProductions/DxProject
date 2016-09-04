@@ -28,21 +28,39 @@
                 
                 <form action="cadastroPublico.php" method="post" id="form">
                 
-                    Nome:<br/>
-                    <input type="text" name="name" id="txt"><br/>
-                    Descrição:<br/>
+                    <div id="text">Nome:</div><br/>
+                    <input type="text" name="nome" id="txt"><br/>
+                    <div id="text">Descrição:</div><br/>
                     <textarea rows="5" name="descricao"></textarea><br/>
+                    <div id="text">Imagem:</div><br/>
+                    <input type="file" name="img" id="text">
                     <button>Salvar</button>
                     
                 </form>
-                
                 
             </div>
 	
         </article>
         
         <?php
-        // put your code here
+        
+            include_once '../database/PublicoDao.php';
+            include_once '../entidades/Publico.php';
+            
+            $nome = $_POST['nome'];
+            $descricao = $_POST['descricao'];
+            
+            if(isset($nome)&&isset($descricao)){
+                
+                $p = new Publico();
+                $dao = new PublicoDao();
+                
+                $p->setNome($nome);
+                $p->setDescricao($descricao);
+                
+                $dao->salvar($p);
+                
+            }
         ?>
     </body>
 </html>
